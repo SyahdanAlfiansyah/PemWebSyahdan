@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <body>
+    <h2>Halaman Biografi</h2>
+    <form>
+      <table>
+
+        <tr>
+            <td><label for="">Email </label></td>
+            <td><input type="email" name="email" id="email" placeholder="contoh@gmail.com"></td> 
+
+        <tr>
+          <td><label for="username">Username : </label></td>
+          <td><input type="text" id="username" name="fname" /><br /></td>
+        </tr>
+
+        <tr>
+          <td><label for="Password">Password : </label> <br /></td>
+          <td><input type="password" id="pass" name="pass" /></td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="jenis kelamin">Jenis Kelamin : </label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              id="Laki-Laki"
+              name="Jenis Kelamin"
+              value="Laki-Laki"
+            /><label for="Laki-Laki">Laki-Laki </label>
+
+            <input
+              type="radio"
+              id="Perempuan"
+              name="Jenis Kelamin"
+              value="Perempuan"
+            /><label for="Perempuan">Perempuan </label>
+          </td>
+        </tr>
+
+        <tr>
+            <td><label for="tanggal lahir">Tanggal Lahir : </label></td>
+            <td><input type="date" name="tanggal lahir" id="tanggal lahir"></td>
+        </tr>
+
+        <tr>
+            <td><label for="warna">Warna : </label></td>
+            <td><input type="color" name="warna" id="warna"></td>
+        </tr>
+
+        <tr>
+            <td><label for="Kewarasan">Kewarasan : </label></td>
+            <td><div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" >
+              </div></td>
+        </tr>
+
+        <tr>
+            <td><label for="status pekerjaan">Pekerjaan : </form></td>
+            <td><input type="checkbox" id="pilihan1" name="bekerja" value="bekerja">
+            <label for="bekerja">Bekerja</label>
+
+            <input type="checkbox" id="pilihan2" name="mahasiswa" value="mahasiswa">
+            <label for="mahasiswa">Mahasiswa</label></td>
+        </tr>
+
+
+        <tr>
+            <td><label for="Alamat">Alamat : </label></td>
+            <td><textarea id="alamat" name="Alamat" cols="30" rows="3"></textarea></td>
+        </tr>
+
+        <tr>
+            <td><label for="Jurusan">Jurusan : </label></td>
+            <td><select id="Jurusan" name="Jurusan">
+                <option value="RPL">RPL</option>
+                <option value="PGPAUD">PGPAUD</option>
+                <option value="PGSD">PGPSD</option>
+                <option value="Tekkom">Tekkom</option>
+                <option value="Multimedia">Multimedia</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <td><label for="ile">Upload file:</label></td>
+            <td><input type="file" name="file" id="file"></td>
+        </tr>
+
+        <tr>
+            <td><input type="submit"><input type="reset"></td>
+        </tr>
+      </table>
+    </form>
+
+  </body>
+</html>
