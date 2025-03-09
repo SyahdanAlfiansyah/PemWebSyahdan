@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Halaman Login</h2>
-    <form>
-        <table>
-            <tr>
-                <td><label for="login-email">Email:</label></td>
-                <td><input type="email" id="login-email" name="login-email" required></td>
-            </tr>
-            <tr>
-                <td><label for="login-password">Password:</label></td>
-                <td><input type="password" id="login-password" name="login-password" required></td>
-            </tr>
-            <tr>
-                <td><input type="submit" value="Login"></td>
-            </tr>
-        </table>
-    </form>
+    <h1 class="title">Halaman Login</h1>
+    <div class="login-container">
+        <form>
+            <div class="form-group">
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" name="login-email" required placeholder="contoh@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="login-password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
