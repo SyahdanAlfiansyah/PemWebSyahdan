@@ -1,0 +1,42 @@
+/* Atur tampilan latar belakang */
+body {
+    background: linear-gradient(to bottom, #f8f8f8, #e0e0e0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Bungkus tabel agar bisa dipusatkan */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Tabel utama */
+table {
+    border-collapse: collapse;
+    width: 50vw;
+    height: auto;
+}
+
+/* Semua sel dalam tabel */
+td {
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+/* Warna khusus */
+.black {
+    background-color: black;
+}
+
+.brown {
+    background-color: #e0b080;
+}
