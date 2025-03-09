@@ -1,6 +1,6 @@
 /* Atur tampilan latar belakang */
 body {
-    background: linear-gradient(to bottom, #f8f8f8, #e0e0e0);
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
     display: flex;
     justify-content: center;
     align-items: center;
